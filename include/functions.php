@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/html; charset=utf-8");
-$db=new mysqli('127.0.0.1','gather','d3621201,','movie_lines');
+$db=new mysqli('127.0.0.1','用户名','密码','movie_lines');
 if(mysqli_connect_errno())
 {
 		echo 'can not connect the database';
